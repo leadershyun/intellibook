@@ -1,0 +1,12 @@
+name = "intellibook-api"
+main = "src/index.ts"
+compatibility_date = "2026-04-19"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "intellibook-db"
+database_id = "replace-with-your-d1-database-id"
+
+[[r2_buckets]]
+binding = "AUDIO_BUCKET"
+bucket_name = "intellibook-audio"
