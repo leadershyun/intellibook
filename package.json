@@ -1,0 +1,12 @@
+{
+  "name": "intellibook",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:web": "npm --workspace @intellibook/web run dev",
+    "dev:api": "npm --workspace @intellibook/api run dev",
+    "build:web": "npm --workspace @intellibook/web run build"
+  }
+}
